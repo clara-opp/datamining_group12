@@ -1,0 +1,40 @@
+# --- Python virtual environments ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- Python cache and build files ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+dist/
+build/
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- VS Code settings ---
+.vscode/
+
+# --- Environment / OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.swp
+*.bak
+
+# --- IDE-specific folders ---
+.idea/
+.spyderproject
+.spyproject
+
+# --- Local data or large raw files (optional, adjust as needed) ---
