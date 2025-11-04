@@ -92,3 +92,59 @@ If it runs without error — 🎉 you’re ready to go!
       git commit -m "Update dependencies"
       git push
 
+
+# 🧭 Git Workflow Guide
+
+A concise, step-by-step guide for branching, committing, pushing, creating a pull request, and cleaning up after merge.
+
+---
+
+## 1. Checkout main and update it
+```bash
+git checkout main          # Switch to the main branch
+git pull origin main       # Get the latest changes from remote
+```
+
+---
+
+## 2. Create and switch to a new branch
+```bash
+git checkout -b feature/your-branch-name
+```
+
+---
+
+## 3. Stage and commit your changes
+```bash
+git add .                  # Stage all modified files (or specify individual files)
+git commit -m "Add login functionality"
+```
+
+---
+
+## 4. Push your branch to remote
+```bash
+git push -u origin feature/your-branch-name
+```
+
+---
+
+## 5. Create a Pull Request
+1. Go to your repository on **GitHub**, **GitLab**, or **Bitbucket**.
+2. Click **Compare & Pull Request** (or the equivalent).
+3. Review the changes and open a PR targeting `main`.
+4. Get it reviewed and **merge** it.
+
+---
+
+## 6. Delete the branch after merge
+### Delete the remote branch
+```bash
+git push origin --delete feature/your-branch-name
+```
+
+### Delete the local branch
+```bash
+git branch -d feature/your-branch-name
+```
+> Use `-D` instead of `-d` only if necessary (e.g., local branch isn’t marked as merged but it’s already merged remotely).
