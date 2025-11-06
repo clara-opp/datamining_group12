@@ -1,6 +1,7 @@
 # datamining_group12
 ## Successful Repo Connection and SetUp
 Johannes
+Dimitrios
 
 ## 🛠️ Local Environment Setup Guide
 
