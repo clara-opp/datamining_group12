@@ -37,4 +37,5 @@ Thumbs.db
 .spyderproject
 .spyproject
 
-# --- Local data or large raw files (optional, adjust as needed) ---*:Zone.Identifier
+# --- Local data or large raw files (optional, adjust as needed) ---
+*:Zone.Identifier
