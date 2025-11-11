@@ -2,6 +2,7 @@
 ## Successful Repo Connection and SetUp
 Johannes
 Dimitrios
+Mummbach
 
 ## 🛠️ Local Environment Setup Guide
 
