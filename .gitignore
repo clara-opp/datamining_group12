@@ -39,3 +39,8 @@ Thumbs.db
 
 # --- Local data or large raw files (optional, adjust as needed) ---
 *:Zone.Identifier
+
+
+# CSV codes
+data/*.csv
+
